@@ -23,7 +23,6 @@ public class DataActivity extends AppCompatActivity implements View.OnClickListe
 
         btn_save.setOnClickListener(this);
         btn_exit.setOnClickListener(this);
-        edit_data.setOnClickListener(this);
     }
 
     @Override

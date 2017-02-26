@@ -24,7 +24,6 @@ public class AbautmyActivity extends AppCompatActivity implements View.OnClickLi
 
         btn_save.setOnClickListener(this);
         btn_exit.setOnClickListener(this);
-        edit_abaut.setOnClickListener(this);
 
     }
 

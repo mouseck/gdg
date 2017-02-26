@@ -13,14 +13,14 @@
 
     <EditText
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="date"
+        android:inputType="textPersonName"
         android:ems="10"
-        android:layout_marginTop="59dp"
+        android:layout_marginTop="78dp"
         android:id="@+id/editText3"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:background="@android:color/background_light" />
+        android:textSize="30sp"
+        android:background="@android:color/background_light"
+        android:layout_height="50dp" />
 
     <Button
         android:text="Зберегти"

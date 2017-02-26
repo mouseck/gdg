@@ -11,15 +11,6 @@
     tools:context="com.example.mouse.myregistration.AbautmyActivity"
     android:background="@android:color/holo_blue_dark">
 
-    <EditText
-        android:layout_width="match_parent"
-        android:inputType="textMultiLine"
-        android:ems="10"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/editText4"
-        android:background="@android:color/holo_green_light"
-        android:layout_height="300dp" />
-
     <Button
         android:text="Зберегти"
         android:layout_width="wrap_content"
@@ -35,4 +26,16 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:id="@+id/button10" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:id="@+id/editText4"
+        android:background="@android:color/holo_green_light"
+        android:layout_height="250dp" />
+
 </RelativeLayout>
