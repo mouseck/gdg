@@ -64,31 +64,39 @@
         android:orientation="horizontal"
         android:gravity="center"
         >
-        <Button
+        <ImageButton
             android:text="phone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/call"
+            android:src="@android:drawable/sym_action_call"
             android:layout_marginEnd="33dp"
             android:layout_alignParentBottom="true"
-            android:layout_toStartOf="@+id/em2" />
+            android:layout_toStartOf="@+id/em2"
+            android:background="@color/colorPrimaryDark"
+            android:backgroundTint="@color/colorAccent" />
 
-        <Button
+        <ImageButton
             android:text="Send Email"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/em2"
+            android:src="@android:drawable/sym_action_email"
             android:layout_marginEnd="24dp"
             android:layout_alignParentBottom="true"
-            android:layout_toStartOf="@+id/map" />
+            android:layout_toStartOf="@+id/map"
+            android:background="@color/colorPrimaryDark"
+            android:backgroundTint="@color/colorAccent" />
 
-        <Button
+        <ImageButton
             android:text="map"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/map"
+            android:src="@android:drawable/ic_menu_mapmode"
             android:layout_alignParentBottom="true"
-            android:layout_toEndOf="@+id/imageView3" />
+            android:layout_toEndOf="@+id/imageView3"
+            android:background="@color/colorPrimaryDark" />
     </LinearLayout>
 
 </LinearLayout>

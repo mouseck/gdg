@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">N_post</string>
+    <string name="sity">Черкассы</string>
+    <string name="otd">Отделение №1012</string>
+    <string name="post">Почтомат</string>
+    <string name="open_otd">Отделение откроется согласно графика</string>
+    <string name="adress">Адрес</string>
+    <string name="distance">0,63км</string>
+    <string name="adress_otd">ул.Ленина, 28</string>
+    <string name="mar">Проложить маршрут</string>
+    <string name="work">График работы</string>
+    <string name="day_time_b">8:30-17:30</string>
+    <string name="day_time_v">8:30-15:30</string>
+    <string name="day_b"> ПН-ПТ ,</string>
+    <string name="day_v">СБ</string>
+    <string name="no_work">Воскресенье выходной</string>
+    <string name="day_to_day">Прием с отправкой в тот же день</string>
+    <string name="day_in_day">Прибытие отправки в отделение</string>
+    <string name="otp_day">Отправления не принемаются</string>
+    <string name="time_day_b">до 17:30</string>
+    <string name="time_day_v">до 15:30</string>
+    <string name="day_bud">ПН-ПТ</string>
+</resources>

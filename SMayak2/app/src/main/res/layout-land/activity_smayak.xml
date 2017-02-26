@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="50dp"
+        android:id="@+id/scrollView" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/image001"
+                android:layout_marginTop="1dp"
+                android:id="@+id/imageView2"
+                android:layout_below="@+id/imageView"
+                android:layout_centerHorizontal="true" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="1dp">
+                <TextView
+                    android:text="Ресторан «Старий Маяк» гостинно запрошує Вас насолодитися кулінарними шедеврами та приємно провести час!!!"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:id="@+id/textView"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:text="Працюмо з 10:00 до 23:00"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="12dp"
+                    android:id="@+id/textView2"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:text="Ресторан знаходиться в с.Піщане, Золотоніського району, Черкаської області."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:id="@+id/textView3"
+                    android:layout_marginTop="13dp"
+                    android:layout_alignParentStart="true" />
+            </LinearLayout>
+        </TableLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/bb"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <Button
+            android:text="phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/call"
+            android:layout_marginEnd="33dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toStartOf="@+id/em2" />
+
+        <Button
+            android:text="Send Email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/em2"
+            android:layout_marginEnd="24dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toStartOf="@+id/map" />
+
+        <Button
+            android:text="map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/map"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/imageView3" />
+    </LinearLayout>
+
+</LinearLayout>

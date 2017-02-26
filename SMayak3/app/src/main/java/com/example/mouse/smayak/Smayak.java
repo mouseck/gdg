@@ -1,30 +1,32 @@
 package com.example.mouse.smayak;
 
 import android.content.Intent;
+import android.media.Image;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class Smayak extends AppCompatActivity implements View.OnClickListener {
 
-    Button a;
-    Button b;
-    Button c;
+    ImageButton a;
+    ImageButton b;
+    ImageButton c;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_smayak);
 
-        a = (Button) findViewById(R.id.em2);
+        a = (ImageButton) findViewById(R.id.em2);
         a.setOnClickListener(this);
 
-        c = (Button) findViewById(R.id.map);
+        c = (ImageButton) findViewById(R.id.map);
         c.setOnClickListener(this);
 
-        b = (Button) findViewById(R.id.call);
+        b = (ImageButton) findViewById(R.id.call);
         b.setOnClickListener(this);
 
 
